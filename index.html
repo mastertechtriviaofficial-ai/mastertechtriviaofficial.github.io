@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimple Motors | Premium Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">DIMPLE <span>MOTORS</span></div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO DIMPLE MOTORS</p>
+
+            <h1>Find Your<br><span>Dream Car</span></h1>
+
+            <p>
+                Discover quality cars at the right price.
+                Your trusted destination for premium automobiles.
+            </p>
+
+            <a href="#cars" class="btn">Explore Cars</a>
+        </div>
+
+    </section>
+
+
+    <!-- Cars Section -->
+    <section class="cars-section" id="cars">
+
+        <div class="section-title">
+            <p>OUR COLLECTION</p>
+            <h2>Featured Cars</h2>
+        </div>
+
+        <div class="cars-container">
+
+            <!-- Car 1 -->
+            <div class="car-card">
+
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=900&q=80"
+                     alt="Luxury BMW">
+
+                <div class="car-info">
+                    <h3>BMW 5 Series</h3>
+                    <p>Luxury Sedan • Automatic</p>
+
+                    <div class="car-bottom">
+                        <strong>₹65,00,000</strong>
+                        <button onclick="showMessage('BMW 5 Series')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Car 2 -->
+            <div class="car-card">
+
+                <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80"
+                     alt="Mercedes Benz">
+
+                <div class="car-info">
+                    <h3>Mercedes-Benz C-Class</h3>
+                    <p>Premium Sedan • Automatic</p>
+
+                    <div class="car-bottom">
+                        <strong>₹58,00,000</strong>
+                        <button onclick="showMessage('Mercedes-Benz C-Class')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Car 3 -->
+            <div class="car-card">
+
+                <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=900&q=80"
+                     alt="Audi Car">
+
+                <div class="car-info">
+                    <h3>Audi A6</h3>
+                    <p>Luxury Sedan • Automatic</p>
+
+                    <div class="car-bottom">
+                        <strong>₹70,00,000</strong>
+                        <button onclick="showMessage('Audi A6')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+
+        <div class="section-title">
+            <p>WHY CHOOSE US</p>
+            <h2>Drive With Confidence</h2>
+        </div>
+
+        <div class="features">
+
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <h3>Quality Cars</h3>
+                <p>Carefully selected vehicles with a focus on quality and reliability.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">₹</div>
+                <h3>Best Value</h3>
+                <p>Competitive prices designed to give you excellent value.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">★</div>
+                <h3>Trusted Service</h3>
+                <p>Customer-focused service built on trust and transparency.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h2>DIMPLE MOTORS</h2>
+                <p>Your trusted destination for quality automobiles.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © <span id="year"></span> Dimple Motors. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
